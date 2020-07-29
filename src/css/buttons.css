@@ -1,0 +1,34 @@
+/**
+ * buttons.css
+ */
+.btn-bar {
+  display: flex;
+}
+
+.btn {
+  background-color: #a1a1a1;
+  border: none;
+  border-radius: 8px;
+  box-shadow: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 16px 24px;
+  transition: all 0.15s ease-in-out;
+}
+
+.btn:not(:last-of-type) {
+  margin-right: 16px;
+}
+
+.btn:hover {
+  background-color: #696969;
+}
+
+.btn-primary {
+  background-color: blue;
+}
+
+.btn-primary:hover {
+  background-color: darkblue;
+}

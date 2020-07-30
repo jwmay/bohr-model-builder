@@ -1,8 +1,13 @@
 import p5 from 'p5'
 import { copyImage } from './modules/actions'
 import { Alert } from './modules/alert'
+import { Help } from './modules/help'
 import { Nucleus } from './modules/nucleus'
 import { Electron } from './modules/electron'
+
+// Control dispaly of help information
+const help = new Help()
+help.listen()
 
 // Control display of slider labels when copying
 let showSliderText = true

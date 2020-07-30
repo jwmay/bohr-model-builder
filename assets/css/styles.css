@@ -15,7 +15,11 @@
  * buttons.css
  */
 .btn-bar {
+  align-items: center;
   display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  width: 400px;
 }
 
 .btn {
@@ -25,13 +29,8 @@
   box-shadow: none;
   color: white;
   cursor: pointer;
-  margin-top: 16px;
   padding: 16px 24px;
   transition: all 0.15s ease-in-out;
-}
-
-.btn:not(:last-of-type) {
-  margin-right: 16px;
 }
 
 .btn:hover {
@@ -44,6 +43,23 @@
 
 .btn-primary:hover {
   background-color: darkblue;
+}
+
+.btn-icon {
+  color: green;
+  cursor: pointer;
+}
+
+.btn-icon:hover {
+  opacity: 0.7;
+}
+
+/**
+ * help.css
+ */
+.help {
+  margin-top: 24px;
+  width: 400px;
 }
 
 html,

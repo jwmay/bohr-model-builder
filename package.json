@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "gulp",
-    "deploy": "gh-pages -d build"
+    "build": "gulp build --prod",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Joseph W. May",
   "license": "ISC",
